@@ -21,23 +21,6 @@
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev"
   },
-  "lint-staged": {
-    "*.{md,json}": [
-      "prettier --write --no-error-on-unmatched-pattern"
-    ],
-    "*.{css,less}": [
-      "stylelint --fix",
-      "prettier --write"
-    ],
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "prettier --parser=typescript --write"
-    ]
-  },
   "devDependencies": {
     "@umijs/lint": "^4.0.0",
     "dumi": "^2.0.2",
