@@ -5,7 +5,4 @@ export default defineConfig({
   themeConfig: {
     name: 'gc-devtools',
   },
-  verifyCommit: {
-    allowEmoji: true,
-  },
 });
